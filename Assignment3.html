@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+
+    <script type="text/javascript">
+                                        // Simple program on IF Condition
+
+        var num = prompt("Enter Number to Check Whether It is Positive");
+            if (num > 0)
+            {
+                document.write("Given number is Positive!!!"+"<br>");
+            }
+                                        //Another Program on If else Condition
+
+        var number = prompt("Enter a Number to check whether it is  Even or Odd");
+        number = parseInt(number);
+            if (isNaN(number))
+            {
+                document.write("Please Enter a Number"+"<br>");
+            }
+            else if (number== 0)
+            {
+                document.write("The Number is Zero"+"<br>");
+            }
+            else if (number % 2)
+            {
+                document.write("The Number is Odd"+"<br>");
+            }
+            else
+            {
+                document.write("The Number is Even"+"<br>");
+            }
+                                            //Another Program to describe the Swittch case in Java Script
+
+   var day = prompt("Enter a number between 1 and 7 (days of week)");
+        switch (day)
+        {
+                case (day="1"):
+                    document.write("Sunday"+"<br>");
+                    break;
+                case (day="2"):
+                    document.write("Monday"+"<br>");
+                    break;
+                case (day="3"):
+                    document.write("Tuesday"+"<br>");
+                    break;
+                case (day="4"):
+                    document.write("Wednesday"+"<br>");
+                    break;
+                case (day="5"):
+                    document.write("Thursday"+"<br>");
+                    break;
+                case (day="6"):
+                    document.write("Friday"+"<br>");
+                    break;
+                case (day="7"):
+                    document.write("Saturday"+"<br>");
+                    break;
+                default:
+                    document.write("Invalid Weekday"+"<br>");
+                    break;
+        } 
+                                         // program to Depict the continue statement
+document.write("To print value of i Using continue statement"+"<br>");
+for (let i = 1; i <= 5; i++) {
+  
+if (i == 3) {
+    continue;
+}
+
+document.write(i +"<br>");
+}
+                                        //Simple program on For Loop
+    document.write("Printing using for loop" +"<br>");
+    const n = 5;
+    for (let i = 1; i <= n; i++) {
+        document.write("I love JavaScript."+"<br>");
+}
+                                        //Simple Program on While Loop
+
+      var a=0,b=1,c=0;
+        document.write("Fibonacci Series:"+"<br>");
+        while (b<=10)
+            {
+                c= a+b;
+                a = b;
+                b= c;
+                document.write(c+"<br>");
+            } 
+                                        // Simple program on Do While Loop
+    document.write("Printing Numbers from 1 to 5:"+"<br>");
+    var i = 0;
+        do
+        {
+                document.write(i+"<br>")
+                i++;
+        }
+        while (i <= 5) 
+   </script>
+</head>
+<body>
+    
+</body>
+</html>
