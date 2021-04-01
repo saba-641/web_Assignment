@@ -1,0 +1,70 @@
+body{
+    background-image:linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+    form div + div {
+        margin-top: 1em;
+    }
+
+label {
+    display: inline-block;
+}
+
+.label-name {
+    width: 20%;
+    text-align: left;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+    input:focus, textarea:focus {
+        border-color: #000;
+    }
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: .5em;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: 20px;
+    cursor: pointer;
+}
+
+#result_grid {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+button {
+    width: 100px;
+}
